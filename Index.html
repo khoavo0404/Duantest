@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <h1>Các thẻ tag các cần học</h1>
+    <ul>
+        <li><b>Thẻ tag h(header):</b> <i>là thẻ đề mục,có 6 cấp thẻ giảm dần độ lớn từ h1 đến h6 </i><br>
+            <h2><b>Ví dụ:</b></h2>
+            <h1>Đây là thẻ h1</h1>
+            <h2>Đây là thẻ h2</h2>
+            <h3>Đây là thẻ h3</h3>
+            <h4>Đây là thẻ h4</h4>
+            <h5>Đây là thẻ h5</h5>
+            <h6>Đây là thẻ h6</h6>            
+        </li>
+
+        <li><b>Thẻ tag p(paragraph)</b>:<i> là thẻ đoạn văn bản</i> <br>
+            <h2><b>Ví dụ:</b></h2>
+            <p>Đây là 1 đoạn viết trong thẻ p(paragraph)</p>
+        </li>
+        <li>Thẻ tag b(bold),i(italic),u(underline): là các thẻ in đậm,nghiêng và gạch chân đoạn văn bản chỉ định
+            <h2><b>Ví dụ:</b></h2>
+            <p><b><i><u>Dùng thẻ tag b,i,u để in đậm,nghiêng và gạch chân văn bản</u></i></b></p>
+        </li>
+        <li>Thẻ tag br(break),hr(horizontal rule): là các thẻ tag ngắt dòng và tạo đường kẻ ngang 
+            <h2><b>Ví dụ:</b></h2>
+            <p>Dùng thẻ tag br và hr <br> <hr>để ngắt dòng và tạo đường kẻ ngang</p>
+        </li>
+        <li>Thẻ tag <strong>Strong</strong>,<em>em(emphasis)</em>: là các thẻ dùng để <strong>in đậm</strong> và <em>in nghiêng,</em>
+            2 thẻ này giống b và i nhưng mục đích dùng để thể hiện nội dung quan trong
+            <h2><b>Ví dụ:</b></h2>
+            <p>Dùng thẻ tag strong và em(emphasis) để im đậm và in nghiên những nội dụng muốn nhấn mạnh cho trình duyệt,
+            ngoài ra có thể dùng cho chức screen reader trên trình duyệt</p>
+        </li>
+        <li>Thẻ tag a(anchor): là thẻ tag dùng để gắn liên kết,email,phone
+            <h2><b>Ví dụ:</b></h2>
+            <a href="">Nếu ta để href="" thì trình duyệt hiểu là reset lại giống việc bạn nhấn F5</a><br>
+            <a href="#">Nếu ta để href="#" thì trình duyệt sẽ trở lại trang đầu</a><br>
+            <a href="https://www.youtube.com/watch?v=d5Jh9iz0mtY&list=PLPt6-BtUI22oveeGAyckbAXRSmTBGLZP4&index=16">
+                Nếu ta để vào là 1 cái link nào đó thì nó sẽ truy cập đến địa chỉ link đó  
+            </a><br>
+            <h3>Thêm một thuộc tính khác là target,có nhiều giá trị của target(_self,_blank,_top,_parent,framename)</h3>
+            <a href="https://www.youtube.com/watch?v=d5Jh9iz0mtY&list=PLPt6-BtUI22oveeGAyckbAXRSmTBGLZP4&index=16" target="_self">Mở link ở trang hiện tại</a><br>
+            <a href="https://www.youtube.com/watch?v=d5Jh9iz0mtY&list=PLPt6-BtUI22oveeGAyckbAXRSmTBGLZP4&index=16" target="_blank">Mở link ở một tab mới</a><br>
+            <a href="https://www.youtube.com/watch?v=d5Jh9iz0mtY&list=PLPt6-BtUI22oveeGAyckbAXRSmTBGLZP4&index=16" target="_parent">Opens the linked document in the parent frame</a><br>
+            <a href="https://www.youtube.com/watch?v=d5Jh9iz0mtY&list=PLPt6-BtUI22oveeGAyckbAXRSmTBGLZP4&index=16" target="_top">Opens the linked document in the full body of the window</a><br>
+            <h3>Ngoài điều hướng tới một link thì ngoài ra còn điều hướng tới liên kết sđt:<i>"tel"</i> và liên kết email:<i>"mailto"</i></h3>
+            <a href="tel:0775891323">Call me</a><br>
+            <a href="mailto:tuhoc.cc@gmail.com">Gửi email cho tôi</a><hr>
+        </li>
+
+        <li>Thẻ tag img(image): là thẻ tag dùng để gắn hình ảnh cho web site.Có hai cách lấy: Lấy link ảnh trên mạng hoặc lấy ảnh trên thư mục hình ảnh có chưa ảnh.
+          <h2><b>Ví dụ:</b></h2>
+          <p>Hình ảnh được lấy bằng link trên mạng <br>
+            <img src="https://images.unslash.com/photo-1586605798723-45275561392b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZyVDMyVBMWklMjB4aW5nfGVufDB8fDB8fHww" alt="alt(alternative) dùng để hiển thị text khi hình ảnh lỗi,hổ trợ screen reader cho người khiếm thị,công cụ tìm kiếm thu thập dữ liệu trên trang">
+          </p>
+          <p>Hình ảnh lấy từ thư mục trong dự án <br>
+            <img src="img\streetwind-KGHGpr5m994-unsplash.jpg" alt="Tạm thời để đường link lỗi">
+          </p>
+        </li>
+    </ul>
+<hr>
+    <!--ul là thẻ tạo danh sách không có thứ tự -->
+    <ul><h1>Học về ul và ol</h1>
+        <li><h2>ul là thẻ tạo danh sách không có thứ tự</h2>
+            <ul>
+              <h3>Ví dụ:Danh sách sinh viên</h3>
+              <li>Khoa</li>
+              <li>Hoàng</li>
+              <li>Long</li>
+              <li>Bảo</li>
+            </ul>
+        </li>
+        <!--ol là thẻ tạo danh sách có thứ tự -->
+        <li><h2>ol là thẻ tạo danh sách có thứ tự</h2>
+            <ol> 
+              <h3><b>Ví dụ:Cách nấu trứng</b></h3>
+              <li>cần trứng vừa đủ đút vô mồm</li>
+              <li>1 nồi nước đủ tắm</li>
+              <li>cho nồi vào trứng</li>
+              <li>
+                bật nồi để nấu lửa 10 phút nếu muốn ăn lòng đào, 15 phút nếu muốn ăn
+                lòng chín như nước...
+              </li>
+            </ol>
+        </li>
+        <!--Dùng emmet để tạo ul,ol nhanh:lên trang emmet -> cheet sheet:để coi các cú pháp emmet nhanh -->
+        <!--cú pháp 1: >,*n.Ví dụ ul > li*7  -->
+        <hr>
+        <li><h2>Học cách dùng emmet để code nhanh hơn</h2>
+            <ol>
+                <h3>Cú pháp 1: >,*n.Ví dụ ul > li*7</h3>
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+            </li>
+            <!--Cú pháp 2: $. Ví dụ : ul>li*7{Nội dung tự tăng lên $}-->
+            <h3>Cú pháp 2: "$". Ví dụ : <i>ul>li*7{Nội dung tự tăng lên $}</i></h3>
+            <ul>
+              <li>Nội dung tự tăng lên 1</li>
+              <li>Nội dung tự tăng lên 2</li>
+              <li>Nội dung tự tăng lên 3</li>
+              <li>Nội dung tự tăng lên 4</li>
+              <li>Nội dung tự tăng lên 5</li>
+              <li>Nội dung tự tăng lên 6</li>
+              <li>Nội dung tự tăng lên 7</li>
+            </ul>
+        
+            <!--cú pháp 3: reversed(đảo ngược thứ tự khi dùng ol),type(thay vì chỉ mỗi tứ tự 1,2,3 thì còn a,b,c hoặc I,II,III) -->
+            <h3>
+              cú pháp 3:
+              <i
+                >"reversed"(đảo ngược thứ tự khi dùng ol),"type"(thay vì chỉ mỗi tứ tự
+                1,2,3 thì còn a,b,c hoặc I,II,III)</i
+              >
+            </h3>
+            <ol type="i">
+              <li>nội dung tư tăng 1</li>
+              <li>nội dung tư tăng 2</li>
+              <li>nội dung tư tăng 3</li>
+              <li>nội dung tư tăng 4</li>
+              <li>nội dung tư tăng 5</li>
+            </ol>
+        
+            <ol reversed>
+              <li>nội dung tự tăng 1</li>
+              <li>nội dung tự tăng 2</li>
+              <li>nội dung tự tăng 3</li>
+              <li>nội dung tự tăng 4</li>
+            </ol>
+        
+            <!--Cú pháp 4: +. Ví dụ h3 + p + ul*4{Nội dung tự tăng $} -->
+            <h3>Cú pháp 4: "+". Ví dụ <b>h3 + p + ul*4{Nội dung tự tăng $}</b></h3>
+            <p>Cú pháp 4: "+". Ví dụ <b>h3 + p + ul*4{Nội dung tự tăng $}</b></p>
+            <ol type="i">
+              <li>Nội dung tự tăng 1</li>
+              <li>Nội dung tự tăng 2</li>
+              <li>Nội dung tự tăng 3</li>
+              <li>Nội dung tự tăng 4</li>
+              <li>Nội dung tự tăng 5</li>
+            </ol>
+            <!--cú pháp 5: "#(id="")",".(class="")". Ví dụ: form#search.wide = (<form action="" id="search" class="wide"></form>) -->
+            <form action="" id="search" class="wide"></form>
+            <!-- "#(id="")". Ví dụ: #header(<div id="head"></div>) -->
+            <div id="header"></div>
+        
+            <!-- ".(class="")".Ví dụ .title = (<div class="title"></div>) -->
+            <div class="title"></div>
+            </ol>
+            <hr>
+        <!-- ol,ul lồng vào nhau -->
+        <li>
+            <h2><b>ol,ul lồng vào nhau</b></h2>
+            <h3>Thực hành 1:</h3>
+            <ol type="I">
+              <b><li>Mở bài:Giới thiệu nhân vật cổ tích</li></b>
+             <b><li>Thân bài:Tả nhân vật cổ tích</b>
+                <ol type="1">
+                  <li>Tả bao quát nhân vật</li>
+                  <li>
+                    Tả chi tiết nhân vật trong truyện cổ tích
+                    <ol type="a">
+                      <li>Tả ngoại hình của nhân vật trong truyện cổ tích</li>
+                      <li>Tả tính tình của nhân vật trong truyện cổ tích</li>
+                      <li>Tả hoạt động của nhân vật trong truyện cổ tích</li>
+                    </ol>
+                  </li>
+                </ol>
+              </li>
+              <b><li>Kết bài: Nêu cảm nghĩ của em về nhân vật trong truyện cổ tích</li></b>
+            </ol><hr>
+            <h3>Thực hành 2:</h3>
+            <ul>
+                <li>Menu item 1</li>
+                <li>Menu item 2
+                    <ol type="I">
+                        <li>menu item 2.1</li>
+                        <li>menu item 2.2
+                            <ol>
+                                <li>menu item 2.2.1</li>
+                                <li>menu item 2.2.2</li>
+                                <li>menu item 2.2.3</li>
+                            </ol>
+                        </li>
+                        <li>menu item 2.3</li>
+                        <li>menu item 2.4</li>
+                    </ol>
+                </li>
+                <li>Menu item 3</li>
+                <li>Menu item 4</li>
+            </ul>
+        </li>
+
+
+    </ul>
+  </body>
+</html>
